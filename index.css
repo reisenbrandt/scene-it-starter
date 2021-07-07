@@ -1,16 +1,74 @@
 body {
-	background-color: #B2E9FD;
+	background-color: #4a4a4a;
 }
 
 .header h2 {
-	color: #DC4247;
+	color: #48f9de;
 }
 
 .header p {
-	color: #50524F;
+	color: #dedede;
 }
 
-.results {
+/* .results {
 	margin-top: 20px;
+} */
+
+/* .results {
+	/* background-color: whitesmoke; */
+	/* padding: 100px;
+ */ 
+/* } */
+
+.movieContainer {
+	max-width: 1800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
+.movieStyle {
+	margin: 8px;
+	padding: 8px;
+	/* width: 320px; */
+	background-color: whitesmoke;
+	border-radius: 4px;
+	width: 316px;
+	height: 559px;
+}
+
+.movieFooter {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+	align-items: center;
+	align-self: flex-end;
+}
+
+.movie-title {
+	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 53px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1400px;
+	}
+
+.searchStyle {
+	/* max-width: 900px;
+	min-width: 400px; */
+	padding-bottom: 5px;
+}
+
+.watchlistButton {
+	display: flex;
+	color: #dedede;
+	justify-content: center;
+	text-decoration: none;
+}
